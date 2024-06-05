@@ -8,7 +8,7 @@ given:
  - person 1 is random-walking with directions up and right, deciding their next move at each street intersection
  - person 2 is random walking with directions down and left
  - both start walking at the same time and with the same speed,
- - 
+
 What is the probability that they meet?
 
 
@@ -25,7 +25,7 @@ The following path pairs meet (n=5):
 ('VVVVH', 'HHVHH')
 While these dont:
 ('HHHHH', 'VVVVH')
-('HVHVH', 'HVHVV')
+('HVHVH', 'HVHHV')
 and in general if person 1 has a path consisting of i H's and n-i V's then a meet will occur if person 2 has a path consisting of n-i H's and i V's
 
 How many unique paths of length n can person 1 take with i H's and n-i V's?
@@ -43,6 +43,7 @@ Final answer = Sum (0<=i<=n) (nCi)^2   /   2^(2n)
 Monte Carlo simluations (took roughly 15sec):
 100,000 simulations for n = 6, result:
 ![image](https://github.com/samperrone25/city-block-random-walk-sim/assets/68690083/8770b1b1-d7ff-447e-a49e-0a37810f0910)
+
 
 100,000 simulations for n = 15, result:
 ![image](https://github.com/samperrone25/city-block-random-walk-sim/assets/68690083/fc9371a9-b33b-4230-907c-2309e848f273)
