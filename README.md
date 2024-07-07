@@ -1,4 +1,4 @@
-This repostiory contains functions that can simulate Monte-Carlo style >=2 people random-walking in >=2 directions in a space of dimension >= 2.
+This repostiory contains functions that can simulate Monte-Carlo style 2 people random-walking in 2 directions in a space of dimension 2.
 The goal of these simulations were to test the theoretical result to the below question.  
 
 ### Question:
